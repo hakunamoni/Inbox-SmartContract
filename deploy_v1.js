@@ -1,9 +1,11 @@
+// require('dotenv').config();
+
 // const HDWalletProvider = require('@truffle/hdwallet-provider');
 // const Web3 = require('web3');
 // const {interface, bytecode} = require('./compile');
 
 // const provider = new HDWalletProvider(
-//     'twenty coin mansion easily horn need absent vessel aware roast two very',
+//     process.env.MNEMONIC,
 //     'https://ropsten.infura.io/v3/c303c2e21a314ab6abd7a092e39c151c'
 // );
 // // const provider = new HDWalletProvider({
